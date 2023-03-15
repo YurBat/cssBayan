@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    /*font-size: 16px;*/
 }
 
 body {
@@ -13,30 +13,6 @@ body {
 
 img {
 	max-width: 100%;
-}
-
-
-@media screen and (max-width: 820px) {
-	h1 {
-	font-size: 1.7rem;
-	line-height: 1.5rem;
-  }
-	label, span {
-	font-size: 1rem;
-	line-height: 1.2rem;
-		color: green;
-  }
-}
-
-@media screen and (max-width: 320px) {
-	h1 {
-	font-size: 1rem;
-	line-height: 1.2rem;
-  }
-	label, span {
-	font-size: 0.8rem;
-	line-height: 1rem;
-  }
 }
 
 
@@ -186,11 +162,38 @@ span.icon {
 	display: none;
 }
 
+
+@media screen and (max-width: 820px) {
+	.wrapper h1 {
+	font-size: 1.5rem;
+	line-height: 1.3rem;
+	padding-bottom: 0.5em;
+  }
+	label, span {
+	font-size: 1rem;
+	line-height: 1.2rem;
+	/*color: green;*/
+  }
+}
+
+@media screen and (max-width: 320px) {
+	.wrapper h1 {
+	font-size: 1rem;
+	line-height: 1.3rem;
+  }
+	label, span {
+	font-size: 0.8rem;
+	line-height: 1rem;
+	/*color:red;*/
+  }
+}
+
+
 .visuallyhidden {
-  position: absolute;
+  /*position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: -1px;*/
   border: 0;
   padding: 0;
   white-space: nowrap;
